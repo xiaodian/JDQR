@@ -14,6 +14,16 @@
 		E7045F2619ECD82A00699381 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7045F2519ECD82A00699381 /* Images.xcassets */; };
 		E7045F2919ECD82A00699381 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7045F2719ECD82A00699381 /* LaunchScreen.xib */; };
 		E7045F3519ECD82B00699381 /* JDQRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7045F3419ECD82B00699381 /* JDQRTests.m */; };
+		E7045F4419ECEACC00699381 /* QRController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7045F4219ECEACC00699381 /* QRController.m */; };
+		E7045F4519ECEACC00699381 /* QRController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7045F4319ECEACC00699381 /* QRController.xib */; };
+		E7045F4719ECEBE700699381 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7045F4619ECEBE700699381 /* AVFoundation.framework */; };
+		E7045F4919ECF2D100699381 /* qrcode_border@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7045F4819ECF2D100699381 /* qrcode_border@2x.png */; };
+		E7045F4B19ECF2E700699381 /* qrcode_scanline_qrcode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7045F4A19ECF2E700699381 /* qrcode_scanline_qrcode@2x.png */; };
+		E7045F4D19ECF30600699381 /* kakalib_scan.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7045F4C19ECF30600699381 /* kakalib_scan.wav */; };
+		E7045F5519ED02AC00699381 /* qrcode_scan_btn_flash_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7045F5119ED02AC00699381 /* qrcode_scan_btn_flash_down@2x.png */; };
+		E7045F5619ED02AC00699381 /* qrcode_scan_btn_flash_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7045F5219ED02AC00699381 /* qrcode_scan_btn_flash_nor@2x.png */; };
+		E7045F5719ED02AC00699381 /* qrcode_scan_btn_photo_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7045F5319ED02AC00699381 /* qrcode_scan_btn_photo_down@2x.png */; };
+		E7045F5819ED02AC00699381 /* qrcode_scan_btn_photo_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7045F5419ED02AC00699381 /* qrcode_scan_btn_photo_nor@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,19 @@
 		E7045F2E19ECD82A00699381 /* JDQRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDQRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7045F3319ECD82B00699381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7045F3419ECD82B00699381 /* JDQRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDQRTests.m; sourceTree = "<group>"; };
+		E7045F4119ECEACC00699381 /* QRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRController.h; sourceTree = "<group>"; };
+		E7045F4219ECEACC00699381 /* QRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRController.m; sourceTree = "<group>"; };
+		E7045F4319ECEACC00699381 /* QRController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRController.xib; sourceTree = "<group>"; };
+		E7045F4619ECEBE700699381 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E7045F4819ECF2D100699381 /* qrcode_border@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_border@2x.png"; sourceTree = "<group>"; };
+		E7045F4A19ECF2E700699381 /* qrcode_scanline_qrcode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scanline_qrcode@2x.png"; sourceTree = "<group>"; };
+		E7045F4C19ECF30600699381 /* kakalib_scan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kakalib_scan.wav; sourceTree = "<group>"; };
+		E7045F4E19ECFECD00699381 /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		E7045F5019ECFFA500699381 /* JDQR.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDQR.pch; sourceTree = SOURCE_ROOT; };
+		E7045F5119ED02AC00699381 /* qrcode_scan_btn_flash_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_btn_flash_down@2x.png"; sourceTree = "<group>"; };
+		E7045F5219ED02AC00699381 /* qrcode_scan_btn_flash_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_btn_flash_nor@2x.png"; sourceTree = "<group>"; };
+		E7045F5319ED02AC00699381 /* qrcode_scan_btn_photo_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_btn_photo_down@2x.png"; sourceTree = "<group>"; };
+		E7045F5419ED02AC00699381 /* qrcode_scan_btn_photo_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_btn_photo_nor@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7045F4719ECEBE700699381 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +90,7 @@
 				E7045F1719ECD82A00699381 /* JDQR */,
 				E7045F3119ECD82B00699381 /* JDQRTests */,
 				E7045F1619ECD82A00699381 /* Products */,
+				E7045F4619ECEBE700699381 /* AVFoundation.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +106,14 @@
 		E7045F1719ECD82A00699381 /* JDQR */ = {
 			isa = PBXGroup;
 			children = (
-				E7045F1C19ECD82A00699381 /* AppDelegate.h */,
-				E7045F1D19ECD82A00699381 /* AppDelegate.m */,
+				E7045F4F19ECFF1100699381 /* resource */,
+				E7045F4E19ECFECD00699381 /* CommonMacro.h */,
 				E7045F1F19ECD82A00699381 /* ViewController.h */,
 				E7045F2019ECD82A00699381 /* ViewController.m */,
 				E7045F2219ECD82A00699381 /* Main.storyboard */,
+				E7045F4119ECEACC00699381 /* QRController.h */,
+				E7045F4219ECEACC00699381 /* QRController.m */,
+				E7045F4319ECEACC00699381 /* QRController.xib */,
 				E7045F2519ECD82A00699381 /* Images.xcassets */,
 				E7045F2719ECD82A00699381 /* LaunchScreen.xib */,
 				E7045F1819ECD82A00699381 /* Supporting Files */,
@@ -96,6 +124,9 @@
 		E7045F1819ECD82A00699381 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E7045F5019ECFFA500699381 /* JDQR.pch */,
+				E7045F1C19ECD82A00699381 /* AppDelegate.h */,
+				E7045F1D19ECD82A00699381 /* AppDelegate.m */,
 				E7045F1919ECD82A00699381 /* Info.plist */,
 				E7045F1A19ECD82A00699381 /* main.m */,
 			);
@@ -117,6 +148,20 @@
 				E7045F3319ECD82B00699381 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7045F4F19ECFF1100699381 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				E7045F5119ED02AC00699381 /* qrcode_scan_btn_flash_down@2x.png */,
+				E7045F5219ED02AC00699381 /* qrcode_scan_btn_flash_nor@2x.png */,
+				E7045F5319ED02AC00699381 /* qrcode_scan_btn_photo_down@2x.png */,
+				E7045F5419ED02AC00699381 /* qrcode_scan_btn_photo_nor@2x.png */,
+				E7045F4A19ECF2E700699381 /* qrcode_scanline_qrcode@2x.png */,
+				E7045F4819ECF2D100699381 /* qrcode_border@2x.png */,
+				E7045F4C19ECF30600699381 /* kakalib_scan.wav */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +244,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7045F5619ED02AC00699381 /* qrcode_scan_btn_flash_nor@2x.png in Resources */,
+				E7045F4519ECEACC00699381 /* QRController.xib in Resources */,
+				E7045F4B19ECF2E700699381 /* qrcode_scanline_qrcode@2x.png in Resources */,
+				E7045F5719ED02AC00699381 /* qrcode_scan_btn_photo_down@2x.png in Resources */,
+				E7045F4D19ECF30600699381 /* kakalib_scan.wav in Resources */,
+				E7045F5819ED02AC00699381 /* qrcode_scan_btn_photo_nor@2x.png in Resources */,
 				E7045F2419ECD82A00699381 /* Main.storyboard in Resources */,
 				E7045F2919ECD82A00699381 /* LaunchScreen.xib in Resources */,
+				E7045F5519ED02AC00699381 /* qrcode_scan_btn_flash_down@2x.png in Resources */,
 				E7045F2619ECD82A00699381 /* Images.xcassets in Resources */,
+				E7045F4919ECF2D100699381 /* qrcode_border@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7045F4419ECEACC00699381 /* QRController.m in Sources */,
 				E7045F2119ECD82A00699381 /* ViewController.m in Sources */,
 				E7045F1E19ECD82A00699381 /* AppDelegate.m in Sources */,
 				E7045F1B19ECD82A00699381 /* main.m in Sources */,
@@ -286,6 +340,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -326,6 +381,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -344,6 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JDQR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JDQR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +470,7 @@
 				E7045F3A19ECD82B00699381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7045F3B19ECD82B00699381 /* Build configuration list for PBXNativeTarget "JDQRTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +479,7 @@
 				E7045F3D19ECD82B00699381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "QRController.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)pushQR:(id)sender {
+    QRController *qr=[[QRController alloc]init];
+    [self.navigationController pushViewController:qr animated:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
